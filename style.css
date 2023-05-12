@@ -1,7 +1,7 @@
-body {
+/* body {
   margin: 0 auto;
   background-color: lightgrey;
-}
+} */
 
 .wrapper {
   background-color: white;
@@ -47,6 +47,7 @@ li {
 .article,
 .banner-first,
 .banner-second,
+.banner-review,
 .banner-about{
   background-color: #efefef;
   height: 10em;
@@ -227,3 +228,74 @@ flex-wrap: wrap;
   text-align: center;
   margin: auto;
 }
+.footer{
+  margin:0;
+  width: 100%;
+  height: 370px;
+  background-color: #C1DCDC;
+}
+.footer-top{
+  display: flex;
+  width: 100%;
+  height: 85%;
+
+}
+ .footer-left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  /* background-color: burlywood; */
+  padding-left: 3%;
+}
+.footer-right{
+  width: 50%;
+  height: 100%;
+  float: right;
+  /* background-color: aqua; */
+  padding-left: 20%;
+  padding-top:20px;
+} 
+.footer-end{
+  bottom: 0;
+  /* position: fixed; */
+  text-align: center;
+}
+.footer-right table{
+  width: 400px;
+  height: 200px;
+  text-align: left;
+}
+.banner-review{
+  width: 100%;
+  height: 400px;
+  /* background-color: aqua; */
+}
+.customer-say{
+  width: 100%;
+  height: 100px;
+  /* background-color: blueviolet; */
+}
+.customer-say h3{
+  width: 350px;
+}
+.review{
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 300px;
+}
+.review-comment{
+  background-color: #C1DCDC;
+  /* float: left; */
+  border-radius: 10px;
+  width: 49%;
+  height: 100%;
+}
+.review-comment:first-child{
+  margin-right: 10px;
+
+}
+.review-comment:last-child{
+margin-left: 2%;
+}
+
